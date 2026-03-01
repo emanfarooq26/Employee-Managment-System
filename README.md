@@ -71,6 +71,7 @@ CREATE TABLE employees (
 
 ### Video Link:
 This video elaborates the functionaliy of the project:
+https://drive.google.com/file/d/1_k83LRHqRmQa8QUqO9fpKYvbNXEn2CX_/view?usp=drivesdk
 
 ---
 
