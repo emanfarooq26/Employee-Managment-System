@@ -106,7 +106,7 @@ Delete employee with confirmation popup.
 
 ## 👨‍💻 Author
 
-**Your Name Here**
+**Eman Farooq**
 
 GitHub: https://github.com/emanfarooq26
 
