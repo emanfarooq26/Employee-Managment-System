@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ff4ecd,#7b2ff7);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Container */
+.container{
+    width:90%;
+    max-width:1000px;
+}
+
+/* Card */
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#7b2ff7;
+}
+
+/* Form */
+form input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ddd;
+    transition:.3s;
+}
+
+form input:focus{
+    border-color:#ff4ecd;
+    outline:none;
+}
+
+/* Buttons */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(135deg,#ff4ecd,#7b2ff7);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#7b2ff7;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+/* Action buttons */
+.edit{
+    background:#4CAF50;
+    padding:6px 12px;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+.delete{
+    background:#ff4d6d;
+    padding:6px 12px;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+/* Links */
+a{
+    text-decoration:none;
+}
+
+/* Message */
+.msg{
+    background:#d4edda;
+    color:#155724;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:15px;
+    text-align:center;
+}
